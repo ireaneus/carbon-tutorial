@@ -72,3 +72,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+### aria-label
+
+Multiple navigation landmarks must have unique labels specified with aria-label or aria-labelledby because both the Breadcrumb and Tabs components use <nav> elements. To fix, add aria-label to the Breadcrumb opening tag:
